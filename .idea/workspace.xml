@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f2aae55-9f1e-4cb5-82c2-313751c42f87" name="Changes" comment="Binary Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/PathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/PopulatingNextRightPointersinEachNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/PopulatingNextRightPointersinEachNodeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/SumRoottoLeafNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinarySearchTree/BinarySearchTree.seq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinarySearchTree/CeilinBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinarySearchTree/DeleteNodeinaBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinarySearchTree/FloorinBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinarySearchTree/InsertintoaBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinarySearchTree/KthSmallestElementinaBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/BinaryTree.seq" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/LG1000/DSA/Tree/BinaryTree/BinaryTree.seq" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741366620092</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Binary Tree">
+      <created>1741512288098</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1741512288098</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
