@@ -1,0 +1,35 @@
+package org.LG1000.DSA.Tree.BinaryTree;
+import org.LG1000.DSA.Tree.TreeNode;
+
+//889. Construct Binary Tree from Preorder and Postorder Traversal
+//https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/
+public class ConstructBinaryTreefromPreorderandPostorderTraversal {
+    public TreeNode solve(int prestart, int poststart, int preend, int[] preorder, int[] postorder) {
+        if (prestart > preend) {
+            return null;
+        }
+
+        TreeNode root = new TreeNode(preorder[prestart]);
+        if (prestart == preend) {
+            return root;
+        }
+        int nextNode = preorder[prestart + 1]; // root of left subtree
+
+        int j = poststart;
+        while (postorder[j] != nextNode) {
+            j++;
+        }
+
+        int num = j - poststart + 1;
+
+        root.left = solve(prestart + 1, poststart, prestart + num, preorder, postorder);
+        root.right = solve(prestart + num + 1, j + 1, preend, preorder, postorder);
+
+        return root;
+    }
+
+    public TreeNode constructFromPrePost(int[] preorder, int[] postorder) {
+        int n = preorder.length;
+        return solve(0, 0, n - 1, preorder, postorder);
+    }
+}
